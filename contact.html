@@ -47,25 +47,24 @@
                     title="Retour à l'accueil"
                     ><img
                       src="img/la-chouette-agence.png"
-                      alt="logo de la chouette agence"
-                      height="40"
+                      alt="logo de la chouette agence"                     
                   /></a>
-                  <button
-                    id="nav-toggle"
+                  <button                    
                     type="button"
-                    class="ui-navbar-toggle navbar-toggle"
+                    class="navbar-toggle"
                     data-toggle="collapse"
-                    data-target=".navbar-1"
+                    data-target="#navbar-1"
                   >
-                    <span class="sr-only">Toggle navigation</span
-                    ><span class="icon-bar"></span><span class="icon-bar"></span
+                    <!-- <span class="sr-only">Toggle navigation</span
+                    > -->
+                    <span class="icon-bar"></span><span class="icon-bar"></span
                     ><span class="icon-bar"></span>
                   </button>
                 </div>
                 <div
-                  class="collapse navbar-collapse navbar-1 special-dropdown-nav"
+                  class="collapse navbar-collapse" id="navbar-1"
                 >
-                  <ul class="site-navigation nav navbar-nav">
+                  <ul class="nav navbar-nav">
                     <li>
                       <a href="index.html" title="Retour à l'accueil"
                         >Accueil</a
@@ -178,8 +177,6 @@
                 </div>
                 <div class="col-sm-6 adresse">
                   <p>
-                    <br /><br /><br /><br />
-
                     contact@lachouetteagence.com<br />2 place Sathonay 69001
                     Lyon<br />Ouvert de 9h à 18h, du lundi au vendredi<br />
                   </p>
@@ -271,5 +268,13 @@
       </div>
       <!-- Principal conteneur END -->
     </main>
+
+    <script src="./js/jquery-2.1.0.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/blocs.js" async></script>
+    <script src="./js/jquery.touchSwipe.js" defer></script>
+    <script src="./js/jqBootstrapValidation.js" async></script>
+    <script src="./js/formHandler.js" async></script>
+    
   </body>
 </html>
