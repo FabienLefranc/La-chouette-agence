@@ -782,6 +782,7 @@ h4 {
   border-radius: 99px;
   margin: 20px auto;
   width: 100%;
+  margin-left: 60%;
 }
 .black-background a:hover {
   font-weight: 600;
@@ -898,7 +899,7 @@ footer p {
     max-width: 100%;
   }
 }
-
+/* 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
@@ -909,7 +910,7 @@ footer p {
   .b-parallax {
     background-attachment: scroll;
   }
-}
+} */
 
 @media screen and (max-width: 991px) {
   .container {
@@ -923,21 +924,21 @@ footer p {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
+  /* .bloc {
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
-  }
+  } */
   .bloc-group,
   .bloc-group .bloc {
     display: block;
     width: 100%;
   }
-  .bloc-fill-screen .fill-bloc-top-edge,
+  /* .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
-  }
+  } */
 }
 @media screen and (min-width: 768px) {
   /* .site-navigation {
@@ -1019,11 +1020,18 @@ footer p {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background: rgba(0, 0, 0, 0.05);
     text-align: left;
-    padding: auto 15px !important;
+    padding:15px !important;
     width: 100%;
   }
   .nav > li:hover {
     background: rgba(0, 0, 0, 0.08);
+  }
+  .nav > li > a{
+    border-radius: 0px;
+    width:100%;
+  }
+  #bloc-0 a{
+    margin-left:30px;
   }
   .dropdown .dropdown a .caret {
     float: none;
@@ -1126,6 +1134,9 @@ footer p {
   .adresse {
     margin-top: 20px;
   }
+  .black-background a {
+    margin-left: 40%;
+  }
 }
 @media screen and (max-width: 550px) {
   .portfolio-thumb {
@@ -1136,15 +1147,27 @@ footer p {
   .portfolio-thumb {
     margin-left: 15%;
   }
+  #bloc-5-cta h2 {
+    width: 400px !important;
+  }
 }
 @media screen and (max-width: 400px) {
   .portfolio-thumb {
     margin-left: 10%;
   }
+  #bloc-5-cta h2 {
+    width: 350px !important;
+  }
+   .black-background a {
+    margin-left: 30%;
+  }
 }
 @media screen and (max-width: 350px) {
   .portfolio-thumb {
     margin-left: 5%;
+  }
+  #bloc-5-cta h2 {
+    width: 300px !important;
   }
 }
 
