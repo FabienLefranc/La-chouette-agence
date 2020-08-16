@@ -47,6 +47,9 @@ a:hover {
   position: relative;
   width: auto;
 }
+blockquote q{
+  color: #1c1c1c !important;
+}
 
 .bloc .container {
   padding-left: 0;
