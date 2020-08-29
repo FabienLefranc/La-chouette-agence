@@ -695,16 +695,16 @@ h4 {
   border-color: #364577 !important;
 }
 .bg-dots-bg {
-  background: url(img/texture-paper.png);
+  background: url(img/texture-paper.webp);
 }
 .bg-lines-h2-bg {
-  background-image: url(img/lines-h2-bg.png);
+  background-image: url(img/lines-h2-bg.webp);
 }
 .bg-banniere {
-  background-image: url(img/la-chouette-agence-banniere.jpg);
+  background-image: url(img/la-chouette-agence-banniere.webp);
 }
 .bg-presentation {
-  background-image: url(img/image-de-presentation.jpg);
+  background-image: url(img/image-de-presentation.webp);
 }
 footer p {
   color: #1c1c1c !important;
