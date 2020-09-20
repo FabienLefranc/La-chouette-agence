@@ -59,10 +59,7 @@ a:hover {
   outline: 0;
 }
 
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-
+a
 b,
 strong {
   font-weight: 700;
@@ -248,8 +245,7 @@ th {
   a[href]:after {
     content: " (" attr(href) ")";
   }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
+ 
   }
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
@@ -1851,11 +1847,6 @@ dd {
   }
 }
 
-abbr[data-original-title],
-abbr[title] {
-  cursor: help;
-  border-bottom: 1px dotted #777;
-}
 
 .initialism {
   font-size: 90%;
