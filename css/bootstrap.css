@@ -59,8 +59,7 @@ a:hover {
   outline: 0;
 }
 
-a
-b,
+a b,
 strong {
   font-weight: 700;
 }
@@ -245,58 +244,56 @@ th {
   a[href]:after {
     content: " (" attr(href) ")";
   }
- 
-  }
-  a[href^="javascript:"]:after,
-  a[href^="#"]:after {
-    content: "";
-  }
-  blockquote,
-  pre {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-  thead {
-    display: table-header-group;
-  }
-  img,
-  tr {
-    page-break-inside: avoid;
-  }
-  img {
-    max-width: 100% !important;
-  }
-  h2,
-  h3,
-  p {
-    orphans: 3;
-    widows: 3;
-  }
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-  .navbar {
-    display: none;
-  }
-  .btn > .caret,
-  .dropup > .btn > .caret {
-    border-top-color: #000 !important;
-  }
-  .label {
-    border: 1px solid #000;
-  }
-  .table {
-    border-collapse: collapse !important;
-  }
-  .table td,
-  .table th {
-    background-color: #fff !important;
-  }
-  .table-bordered td,
-  .table-bordered th {
-    border: 1px solid #ddd !important;
-  }
+}
+a[href^="javascript:"]:after,
+a[href^="#"]:after {
+  content: "";
+}
+blockquote,
+pre {
+  border: 1px solid #999;
+  page-break-inside: avoid;
+}
+thead {
+  display: table-header-group;
+}
+img,
+tr {
+  page-break-inside: avoid;
+}
+img {
+  max-width: 100% !important;
+}
+h2,
+h3,
+p {
+  orphans: 3;
+  widows: 3;
+}
+h2,
+h3 {
+  page-break-after: avoid;
+}
+.navbar {
+  display: none;
+}
+.btn > .caret,
+.dropup > .btn > .caret {
+  border-top-color: #000 !important;
+}
+.label {
+  border: 1px solid #000;
+}
+.table {
+  border-collapse: collapse !important;
+}
+.table td,
+.table th {
+  background-color: #fff !important;
+}
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid #ddd !important;
 }
 
 @font-face {
@@ -1846,7 +1843,6 @@ dd {
     margin-left: 180px;
   }
 }
-
 
 .initialism {
   font-size: 90%;
@@ -7949,7 +7945,7 @@ button.close {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000\9;
+  background-color: #000;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #fff;
   border-radius: 10px;
