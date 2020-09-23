@@ -2073,7 +2073,11 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .col-xs-1,
 .col-xs-10,
@@ -5135,8 +5139,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top .navbar-collapse {
   max-height: 340px;
 }
-
-
 
 .container-fluid > .navbar-collapse,
 .container-fluid > .navbar-header,

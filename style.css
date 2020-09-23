@@ -16,6 +16,8 @@ button {
 a:hover {
   text-decoration: none;
   cursor: pointer;
+  font-weight: bold;
+
 }
 .adresse {
   text-align: center;
@@ -47,8 +49,38 @@ a:hover {
   position: relative;
   width: auto;
 }
+blockquote {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 blockquote q {
   color: #1c1c1c !important;
+}
+blockquote p {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+}
+.col-sm-12 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-bloc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+}
+.social {
+  margin: 20px;
 }
 
 .bloc .container {
@@ -61,7 +93,11 @@ blockquote q {
 }
 
 .bloc-md {
-  padding: 50px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .bloc-sm {
@@ -298,11 +334,6 @@ blockquote q {
   margin-top: 80px;
 }
 
-.row-no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
   padding-right: 0;
@@ -339,7 +370,6 @@ blockquote q {
 }
 
 .nav > li {
-  float: left;
   margin-top: 4px;
   font-size: 16px;
 }
@@ -355,12 +385,10 @@ blockquote q {
   width: auto;
 }
 .nav a:hover {
-  font-size: 24px;
   font-family: "helvetica";
-  /* font-weight: 600; */
+  font-weight: 600;
   color: #1c1c1c !important;
   background-color: #f3976c !important;
-  border-radius: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -472,6 +500,11 @@ button {
 
 .icon-lg {
   font-size: 60px !important;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .sm-shadow {
@@ -710,11 +743,6 @@ p {
   font-weight: 700;
 }
 
-.social {
-  max-width: 400px;
-  margin: auto auto auto auto;
-}
-
 h2 {
   font-size: 22px;
   line-height: 1.4em;
@@ -816,7 +844,7 @@ h4 {
 
 .btn-atomic-tangerine:hover {
   /* background: #c27956 !important; */
-  font-size: 20px;
+  font-weight: bold;
   color: #1c1c1c !important;
 }
 
@@ -1125,6 +1153,12 @@ footer p {
   #bloc-5-cta h2 {
     width: 350px !important;
   }
+  blockquote p {
+    top: 150px;
+  }
+  .social-bloc {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 350px) {
   .portfolio-thumb {
@@ -1132,6 +1166,9 @@ footer p {
   }
   #bloc-5-cta h2 {
     width: 300px !important;
+  }
+  blockquote p {
+    top: 170px;
   }
 }
 

@@ -34,7 +34,7 @@
 
     <link rel="shortcut icon" type="image/png" href="favicon.webp" />
 
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" /> -->
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
@@ -63,45 +63,53 @@
         <header>
           <!-- bloc-0 -->
           <div class="bloc bgc-white" id="bloc-0">
-            
-              <div class="container bloc-sm">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"
-                      ><img
-                        src="img/la-chouette-agence.webp"
-                        alt="logo de la chouette agence"
-                    /></a>
-                    <button
-                      type="button"
-                      class="navbar-toggler"
-                      data-toggle="collapse"
-                      data-target="#monMenu"
-                      aria-label="bouton barre de navigation"
-                    >                    
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                
-                    <div class="collapse navbar-collapse " id="monMenu">
-                      <ul class="nav navbar-nav pull-right">
-                        <li class="nav-item">
-                          <a  class="nav-link" href="#bloc-2-services" title="Nos missions"
-                            >Nos missions</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#bloc-4-portfolio" title="Nos réalisations"
-                            >Nos réalisations</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="contact.html" title="Contactez-nous ici"
-                            >Contact</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
-              </div>            
+            <div class="container bloc-sm">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"
+                  ><img
+                    src="img/la-chouette-agence.webp"
+                    alt="logo de la chouette agence"
+                /></a>
+                <button
+                  type="button"
+                  class="navbar-toggler"
+                  data-toggle="collapse"
+                  data-target="#monMenu"
+                  aria-label="bouton barre de navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="monMenu">
+                  <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="#bloc-2-services"
+                        title="Nos missions"
+                        >Nos missions</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="#bloc-4-portfolio"
+                        title="Nos réalisations"
+                        >Nos réalisations</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="contact.html"
+                        title="Contactez-nous ici"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
           </div>
           <!-- bloc-0 END -->
         </header>
@@ -193,22 +201,19 @@
                   </p>
                 </div>
               </div>
-              <div class="row voffset-lg voffset">
-                <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-                  <blockquote>
-                    <q
-                      >La chouette agence est une excellente agence web! Les web
-                      designers ont réussi à capturer l'essence de notre
-                      entreprise et à l'intégrer à notre site. Cela nous a aidé
-                      à doubler nos ventes en ligne à Lyon.
-                    </q>
-                    <br /><br />
-                    <p>
-                      <strong>Maxime Guilbard</strong>, PDG de A vos fourchettes
-                    </p>
-                  </blockquote>
-                </div>
-              </div>
+
+              <blockquote class="col-xs-12 col-md-8 col-md-offset-2">
+                <q
+                  >La chouette agence est une excellente agence web! Les web
+                  designers ont réussi à capturer l'essence de notre entreprise
+                  et à l'intégrer à notre site. Cela nous a aidé à doubler nos
+                  ventes en ligne à Lyon.
+                </q>
+                <br /><br />
+                <p>
+                  <strong>Maxime Guilbard</strong>, PDG de A vos fourchettes
+                </p>
+              </blockquote>
             </div>
           </div>
           <!-- bloc-2-services END -->
@@ -402,20 +407,15 @@
                     Rédaction web | Social media
                     <br /><br />
                   </p>
-                  <div class="row row-no-gutters social">
-                    <div class="col-sm-3">
-                      <div class="text-center">
-                        <a
+                  <div class="social-bloc">
+                       <a
                           class="social"
                           href="https://twitter.com/"
                           target="_blank"
                           title="Retrouvez la chouette agence sur twitter"
                           ><span class="fa fa-twitter icon-md"></span>
                         </a>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="text-center">
+                    
                         <a
                           class="social"
                           href="https://www.facebook.com/"
@@ -423,10 +423,6 @@
                           title="Retrouvez la chouette agence sur Facebook"
                           ><span class="fa fa-facebook icon-md"></span
                         ></a>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="text-center">
                         <a
                           class="social"
                           href="https://dribbble.com/"
@@ -434,10 +430,7 @@
                           title="Retrouvez la chouette agence sur dribble"
                           ><span class="fa fa-dribbble icon-md"></span
                         ></a>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="text-center">
+                     
                         <a
                           class="social"
                           href="https://www.instagram.com/"
@@ -445,8 +438,7 @@
                           title="Retrouvez la chouette agence sur Instagram"
                           ><span class="fa fa-instagram icon-md"></span
                         ></a>
-                      </div>
-                    </div>
+                      
                   </div>
                 </div>
               </div>
